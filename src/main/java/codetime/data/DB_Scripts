@@ -1,0 +1,29 @@
+// Create Table
+
+CREATE TABLE `c1955887_Videos`.`top_videos` (
+  `videoId` INT NOT NULL AUTO_INCREMENT,
+  `videoName` VARCHAR(45) NULL,
+  `videoLevel` VARCHAR(45) NULL,
+  `videoCategory` VARCHAR(45) NULL,
+  `videoDuration` VARCHAR(45) NULL,
+  `videoDescription` VARCHAR(500) NULL,
+  `videoCreator` VARCHAR(45) NULL,
+  `videoUrl` VARCHAR(45) NULL,
+
+  PRIMARY KEY (`videoId`));
+
+
+
+
+//Insert Values
+
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('1', 'CSS Units', 'Advanced', 'Web Applications', '21', 'In web development, css units are often confusing as there are just many options.  And, many css units - like px vs em vs rem, all seem to get the job done at times.  But some are simply better than others and there are very good reasons why.', 'LearnCode.academy', 'https://www.youtube.com/watch?v=tcBRvjYw5xQ');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('2', 'Top Java Developer Skills', 'Beginner', 'OOP Languages', '12', 'This Edureka video on Java Developer Skills will provide you with detailed knowledge about the important Java Developer Skills required in the current IT Industry. This informative video will include the following.', 'edureka!', 'https://www.youtube.com/watch?v=rs037CQIsiw');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('3', 'Sprint Planning Meeting', 'Intermidiate', 'Agile Development', '3', 'The Sprint Planning Meeting is held with the objective of selecting the set of Product Backlog items which are to be delivered during the current Sprint. It is attended by the Product Owner, the Scrum Master, and the entire Scrum Team. It is one of the four ceremonies conducted in Scrum.', 'KnowledgeHut', 'https://www.youtube.com/watch?v=2A9rkiIcnVI');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('4', 'What is Kanban?', 'Beginner', 'Agile Development', '8', 'Kanban is a work management system designed to help you visualize your work, limit work in progress (WIP), and maximize efficiency. It can often be a powerful tool for teams that want to improve transparency, communication, and alignment within their workplace.', 'Atlassian', 'https://www.youtube.com/watch?v=iVaFVa7HYj4');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('5', 'C# Events and Delegates', 'Advanced', 'OOP Languages', '46', 'Are you confused about events and delegates in C#? Watch this tutorial and your confusion will be gone in 30 minutes!', 'Mosh', 'https://www.youtube.com/watch?v=jQgwEsJISy0');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('6', 'The React Cookbook', 'Advanced', 'Web Applicatioins', '42', 'It’s finally happened: your React project has grown from fledgling side-hobby into serious web application! Will your architecture hold up to your project’s new found scale, or will you let it become an incomprehensible jumble of tangled wires? Come learn simple, practical, and tangible patterns for making your current (and next) React application more composable, easier to reason about, and just overall more pleasurable to work with! ', 'Coding Tech', 'https://www.youtube.com/watch?v=lG6Z0FQj_SI');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('7', 'GitLab Overview', 'Intermidiate', 'Agile Development', '18', 'This video provides an overview of what GitLab can do to help you and your organization develop and deliver software better. It\'s based on the latest release 11.3 (as of Oct 2018) and shows the process of taking a change from planning to monitoring (across the entire DevOps lifecycle.', 'GitLab', 'https://www.youtube.com/watch?v=nMAgP4WIcno');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('8', 'Why Should You Learn Ruby?', 'Beginner', 'OOP Languages', '9', 'Ruby is a dynamic, object-oriented, general purpose programming language designed for productivity and fun. The designers of the Ruby language chose to make things simpler and more pleasant for the programmer.', 'Treehouse', 'https://www.youtube.com/watch?v=vFEPkXybAlo');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('9', 'React JS Crash Course', 'Beginner', 'Web Applications', '98', 'In this crash course you will learn what React JS is and the fundamentals such as components, state, props, JSX, events, etc. ', 'Traversy Media', 'https://www.youtube.com/watch?v=sBws8MSXN7A');
+INSERT INTO `c1955887_Videos`.`top_videos` (`videoId`, `videoName`, `videoLevel`, `videoCategory`, `videoDuration`, `videoDescription`, `videoCreator`, `videoUrl`) VALUES ('10', 'Java Collections', 'Intermidiate', 'OOP Languages', '37', 'This Edureka tutorial on “Java Collections” will talk about the complete hierarchy of Collections Frameworks in Java. It will walk you through the various  fundamentals of collections like Lists, Queue, Sets, Interfaces etc. ', 'edureka!', 'https://www.youtube.com/watch?v=Ma7u6KEKzPE');

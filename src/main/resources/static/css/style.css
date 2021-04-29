@@ -1,0 +1,196 @@
+html,body{
+    font-size: 16px;
+    background-color: #F8F8F8;
+    height:100%;
+}
+
+    @media only screen and (max-width: 760px) {
+        .welcome-img-mobile{
+         display: block
+        }
+
+        .welcome-img{
+            display: none
+        }
+    }
+
+    @media only screen and (min-width: 760px) {
+        .welcome-img-mobile{
+            display: none
+        }
+
+        .welcome-img{
+            display: block
+        }
+    }
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+
+h4, .footer-information, .btn-more, .list-video-propreties{
+    font-size: 1em;
+}
+
+h5{
+    font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:none;
+    color: black;
+}
+
+.about-text{
+    line-height: 2rem;
+    margin: 2rem 0rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+/* ---- Header ---- */
+
+
+.btn{
+    background-color: #ffe400;
+}
+
+.icon{
+    font-size:1.5rem;
+    cursor:pointer;
+    color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffe400;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #616161;;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 2rem;
+}
+
+/* ---- End Header ---- */
+
+/* ---- Footer ---- */
+
+
+.footer-information {
+    color: white;
+    text-align: center;
+}
+
+.footer-wrapper {
+    padding: 20px 0px;
+}
+
+/* ---- End Footer ---- */
+
+
+/* ---- Index ---- */
+.img-banner {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+    filter: brightness(75%);
+    min-height: 220px;
+}
+
+
+
+.list-video-propreties {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+
+.text-banner {
+    position: absolute;
+    color: white;
+    text-align:center;
+    width: 60%;
+    line-height: 1;
+
+}
+
+.container-banner {
+    position: relative
+}
+
+.articleHeader {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.wrapper {
+    margin: 60px 0px;
+}
+
+.card-size {
+    margin: 2rem 0rem;
+}
+
+
+.card-state {
+    display: none;
+}
+
+
+/* ---- End Index ---- */
+
+
+/* ---- Discover ---- */
+
+.badge-pill {
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    border-radius: 10rem;
+}
+.wrapper-top20{
+    margin: 1.5rem 0;
+}
+
+.list-group-item{
+    margin-bottom: 1.5rem;
+}
+/* ---- End Discover ---- */
+
+
+

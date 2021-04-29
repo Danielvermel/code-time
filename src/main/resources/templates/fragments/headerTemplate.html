@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head >
+        <meta http-equiv="content-type" content="charset=UTF-8">
+        <!-- ## SITE META ## -->
+        <meta charset="utf-8">
+        <title>Template</title>
+        <meta name="description" content="">
+        <meta name="author" content="Group1 - Cardiff Uni">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    </head>
+    <body>
+
+        <header th:fragment="header">
+
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="/">
+                    <img src="images/logo.png" height="30" width="30" class="d-inline-block" alt="logo">
+                    Code Time
+                </a>
+
+                <div class="collapse navbar-collapse col-sm" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="Homepage" href="/index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Discover" href="/discover">Discover</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mobile Button-->
+                <button class="icon navbar-toggler ">
+                     &#9776;
+                </button>
+
+                <div id="mySidenav" class="sidenav">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="javascript:void(0)" class="closebtn text-dark">&times;</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark" id="Homepage-mobile" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" id="Discover-mobile" href="/discover">Discover</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </nav>
+        </header>
+
+    </body>
+</html>
