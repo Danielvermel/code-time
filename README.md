@@ -6,6 +6,7 @@ This was one of the projects I developed during University. The goal of this was
 
 * <ins>If your running Windows:</ins> Make sure you have [Git Bash](https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) installed in your system;
 * Make sure you have Java installed in your system;
+* Make ure you have Gradle installed;
 * Make sure you have [Workbench](https://www.mysql.com/products/workbench/) installed to create the database; 
 
 In your Workbench run:
